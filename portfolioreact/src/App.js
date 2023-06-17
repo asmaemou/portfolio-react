@@ -10,13 +10,13 @@ import Contact from "./Contact";
 function App() {
   return (
     <>
-      <Navbar />
+      <Navbar /> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/about" element={<Services />} />
-        <Route path="/about" element={<Portfolio />} />
-        <Route path="/about" element={<Contact />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
   );
