@@ -1,7 +1,6 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom'
 import Navbar from './Navbar';
-import Header from './Header';
 import Home from './Home';
 import About from './About';
 import Services from './Services';
@@ -12,7 +11,6 @@ function App (){
   return (
     <>
       <Navbar />
-      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -23,5 +21,4 @@ function App (){
     </>
   );
 };
-
 export default App;

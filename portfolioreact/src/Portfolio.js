@@ -1,5 +1,7 @@
 const Portfolio =()=>{
-    <div id="portfolio">
+    return(
+        <>
+            <div id="portfolio">
    <div class="container">
       <h1 class="sub-title">My Projects</h1>
       <div class="work-list">
@@ -36,5 +38,7 @@ const Portfolio =()=>{
       <a href="/#" class="btn">See more</a>
    </div>
 </div>
+        </>
+    );
 }
 export default Portfolio;

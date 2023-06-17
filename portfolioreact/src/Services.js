@@ -1,5 +1,7 @@
 const Services =() =>{
-    <div id="services">
+    return(
+        <>
+        <div id="services">
    <div class="container">
       <h1 class="sub-title">My services</h1>
       <div class="services-list">
@@ -25,5 +27,7 @@ const Services =() =>{
       </div>
    </div>
 </div>
+        </>
+    );
 }
 export default Services;
