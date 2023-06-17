@@ -8,7 +8,7 @@ const Contact = () => {
           <div className="contact-left">
             <h1 className="sub-title">Contact Me</h1>
             <p><i className="fa-solid fa-paper-plane"></i> amouradi2002@gmail.com</p>
-            <p><i className="fa-solid fa-phone"></i>+341 5296392</p>
+            <p><i className="fa-solid fa-phone"></i>+1 341-529-6392</p>
             <div className="social-icons">
               <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/asmaemouradi/"><i className="fa-brands fa-linkedin"></i></a>
               <a target="_blank" rel="noreferrer" href="https://www.facebook.com/aya.andaloussi.9/"><i className="fab fa-facebook"></i></a>

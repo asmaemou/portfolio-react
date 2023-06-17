@@ -1,7 +1,7 @@
 const Home = () => {
   return (
     <>
-      <div class="header-text">
+      <div className="header-text">
         <p>Software Engineering</p>
         <h1>
           Hi, I'm <span>Asmae</span> <br />
