@@ -1,9 +1,10 @@
 import React from "react";
+import logo from "./mylogo.png";
 
 const Navbar = () => {
   return (
     <nav>
-      <img className="Mylogo" src="mylogo.png" alt="logo" />
+      <img className="Mylogo" src={logo} alt="Logo" />
       <ul id="sidemenu">
         <li>
           <a href="/">Home</a>
