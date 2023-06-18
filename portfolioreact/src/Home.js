@@ -1,22 +1,25 @@
 import React from "react";
-import backgroundImage from "./bg.png";
+import homeImage from "./me.png";
 
 const Home = () => {
   return (
     <>
-      <div className="header-text"
-      style={{
-        backgroundImage: `url(${backgroundImage})`,
-      }}>
-        <p>Software Engineering</p>
-        <h1>
-          Hi, I'm <span>Asmae</span> <br />
-          Mouradi
-          <br />
-          from Morocco
-        </h1>
+      <div className="header-text">
+        <div className="image-container">
+          <img className="me" src={homeImage} alt="home" />
+        </div>
+        <div className="content-container">
+          <p>Software Engineering</p>
+          <h1>
+            Hi, I'm <span>Asmae</span> <br />
+            Mouradi
+            <br />
+            from Morocco
+          </h1>
+        </div>
       </div>
     </>
   );
 };
+
 export default Home;

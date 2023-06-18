@@ -24,6 +24,18 @@ body{
 .container{
   padding:10px 10%;
 }
+.header-text {
+  display: flex;
+  align-items: left;
+}
+.image-container {
+  flex: 1;
+  text-align: center;
+}
+
+.content-container {
+  flex: 1;
+}
 nav{
   display: flex;
   align-items: center;
