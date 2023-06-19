@@ -1,6 +1,6 @@
-import taxi from "./Best-Taxi-Apps.jpg";
-import bookStore from "./book-store.jpg";
-import portfolioHome from "./portfolio-home.jpg";
+import taxi from "../images/Best-Taxi-Apps.jpg";
+import bookStore from "../images/book-store.jpg";
+import portfolioHome from "../images/portfolio-home.jpg";
 
 const Portfolio = () => {
   return (

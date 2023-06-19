@@ -1,4 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram, faGithub, faFacebook, faLinkedin} from '@fortawesome/free-brands-svg-icons'
+import { faPhone, faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 
 const Contact = () => {
   return (
@@ -7,13 +10,21 @@ const Contact = () => {
         <div className="row">
           <div className="contact-left">
             <h1 className="sub-title">Contact Me</h1>
-            <p><i className="fa-solid fa-paper-plane"></i> amouradi2002@gmail.com</p>
-            <p><i className="fa-solid fa-phone"></i>+1 341-529-6392</p>
+            <p><FontAwesomeIcon icon={faPaperPlane}/> amouradi2002@gmail.com</p>
+            <p><FontAwesomeIcon icon={faPhone}/>+1 341-529-6392</p>
             <div className="social-icons">
-              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/asmaemouradi/"><i className="fa-brands fa-linkedin"></i></a>
-              <a target="_blank" rel="noreferrer" href="https://www.facebook.com/aya.andaloussi.9/"><i className="fab fa-facebook"></i></a>
-              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/asmae__mouradi/"><i className="fab fa-instagram"></i></a>
-              <a target="_blank" rel="noreferrer" href="https://github.com/asmaemou"><i className="fab fa-github"></i></a>
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/asmaemouradi/">
+                <FontAwesomeIcon icon={faLinkedin}/>
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.facebook.com/aya.andaloussi.9/">
+              <FontAwesomeIcon icon={faFacebook}/>
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/asmae__mouradi/">
+              <FontAwesomeIcon icon={faInstagram}/>
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/asmaemou">
+              <FontAwesomeIcon icon={faGithub}/>
+              </a>
             </div>
             <a href="./my-cv.pdf" target="_blank" download className="btn btn2">Download CV</a>
           </div>

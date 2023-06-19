@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 const TabComponent = () => {
   const [activeTab, setActiveTab] = useState('skills');
 
+
   const openTab = (tabname) => {
     setActiveTab(tabname);
   };
