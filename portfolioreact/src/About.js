@@ -2,6 +2,18 @@ import React from "react";
 import aboutImage from "./about.png";
 
 const About = () => {
+  var tablinks=document.getElementsByClassName("tab-links");
+  var tabcontents=document.getElementsByClassName("tab-contents");
+  function openTab(tabname){
+     for(const tablink of tablinks){
+        tablink.classList.remove("active-link");
+     }
+     for(const tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+     }
+     event.currentTarget.classList.add("active-link");
+     document.getElementById(tabname).classList.add("active-tab");
+  }
   return (
     <>
       <div id="about">
@@ -31,17 +43,26 @@ const About = () => {
               <div className="tab-titles">
                 <p
                   className="tab-links active-link"
-                  onclick="opentab('skills')"
+                  onClick={() => openTab("skills")}
                 >
                   Skills
                 </p>
-                <p className="tab-links" onclick="opentab('experience')">
+                <p
+                  className="tab-links active-link"
+                  onClick={() => openTab("experience")}
+                >
                   Experience{" "}
                 </p>
-                <p className="tab-links" onclick="opentab('education')">
+                <p
+                  className="tab-links active-link"
+                  onClick={() => openTab("education")}
+                >
                   Education{" "}
                 </p>
-                <p className="tab-links" onclick="opentab('awards')">
+                <p
+                  className="tab-links active-link"
+                  onClick={() => openTab("awards")}
+                >
                   Awards{" "}
                 </p>
               </div>
