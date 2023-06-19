@@ -394,6 +394,7 @@ nav.fas{
   border-radius: 4px;
   padding: 5px;
   height: 150px; /* Set the height instead of width */
+  margin-left: 13px;
 }
 
 .Mylogo:hover {
