@@ -2,8 +2,22 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faGithub, faFacebook, faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import { faPhone, faPaperPlane } from '@fortawesome/free-solid-svg-icons'
+import {useRef} from "React";
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+  const form = useRef()
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_3i7q051', 'template_s5qnzva', form.current, 'zEuqMoOfq9qnSVakE')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset( )
+  };
   return (
     <div id="contact">
       <div className="container">
@@ -29,7 +43,7 @@ const Contact = () => {
             <a href="./my-cv.pdf" target="_blank" download className="btn btn2">Download CV</a>
           </div>
           <div className="contact-right">
-            <form name="submit-to-google-sheet">
+            <form ref={form} onSubmit={sendEmail} name="submit-to-google-sheet">
               <input type="text" name="name" placeholder="Your name" required />
               <input type="email" name="email" placeholder="Your email" required />
               <textarea name="message" rows="6" placeholder="Message"></textarea>
@@ -40,7 +54,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="copyright">
-        <p>&copy; Your Company Name</p>
+        <p>&copy; Asmae_Mouradi</p>
       </div>
     </div>
   );
