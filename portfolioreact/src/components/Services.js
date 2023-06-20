@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faCropSimple} from "@fortawesome/free-solid-svg-icons";
 import {faAppStore } from "@fortawesome/free-brands-svg-icons"
