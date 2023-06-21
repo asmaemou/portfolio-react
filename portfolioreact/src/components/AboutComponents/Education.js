@@ -2,24 +2,25 @@ const Education=()=>(
     <div className="tab-contents" id="education">
                 <ul>
                   <li>
-                    <span>2023</span>
+                    <span>2020</span>
                     <br />
-                    Exchange semester at Agnes Scott College in USA
+                    Starting a bachelor degree at Al Akhawayn University in Morocco.
                   </li>
-                  <li>
+                  {/* <li>
                     <span>2024</span>
                     <br />
                     Internship
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <span>2025</span>
                     <br />
                     Graduation
-                  </li>
+                  </li> */}
                   <li>
-                    <span>2020</span>
+                    <span>2023</span>
                     <br />
-                    Bachelor at Al Akhawayn University in Morocco{" "}
+                    Exchange semester at Agnes Scott College in USA for a minor in Mathematics.{" "}
+                    
                   </li>
                 </ul>
               </div>

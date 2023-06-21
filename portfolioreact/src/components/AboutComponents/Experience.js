@@ -1,20 +1,20 @@
 const Experience=()=>(
     <div className="tab-contents" id="experience">
         <ul>
-          <li>
+          {/* <li>
             <span>May 2023-current</span>
             <br />
             Designing Web/App interfaces
+          </li> */}
+          <li>
+            <span>May 2023</span>
+            <br />
+            Building my own portfolio using React to showcase my profesionnel expertise.
           </li>
           <li>
-            <span>May 2023-current</span>
+            <span>May 2023</span>
             <br />
-            Web App Development
-          </li>
-          <li>
-            <span>May 2023-current</span>
-            <br />
-            building Android/IOS apps
+            Building a website for a library to help the organization process using React.
           </li>
         </ul>
       </div>

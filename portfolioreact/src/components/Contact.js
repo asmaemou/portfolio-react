@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faGithub, faFacebook, faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import { faPhone, faPaperPlane } from '@fortawesome/free-solid-svg-icons'
-import {useRef} from "React";
+import {useRef} from 'react';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {

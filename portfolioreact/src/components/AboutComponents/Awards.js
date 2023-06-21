@@ -4,17 +4,17 @@ const Awards = () => (
       <li>
         <span>2020</span>
         <br />
-        First Student Grade in my baccalaureate in my region{" "}
+        I have been selected as the top student in my baccalaureate exams for the Casablanca region in Morocco.{" "}
       </li>
       <li>
         <span>2022</span>
         <br />
-        Dean's List at Al Akhawayn University in Morocco
+        Dean's List at Al Akhawayn University in Morocco.
       </li>
       <li>
         <span>2023</span>
         <br />
-        Honor List at Agnes Scott College in USA
+        Honor List at Agnes Scott College in USA.
       </li>
     </ul>
   </div>

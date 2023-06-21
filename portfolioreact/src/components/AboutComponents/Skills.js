@@ -4,23 +4,23 @@ const Skills=()=>(
                   <li>
                     <span>Back-End</span>
                     <br />
-                    PostgresSQL,Django
+                    PostgresSQL, Django
                   </li>
                   <li>
                     <span>Front-End</span>
                     <br />
-                    JavaScript,HTML,CSS
+                    JavaScript, HTML, CSS, React
                   </li>
                   <li>
                     <span>Tools and Methods</span>
                     <br />
-                    GitHub,Figma
+                    GitHub, Figma
                   </li>
                   <li>
                     <span>Soft Skills</span>
                     <br />
-                    Communication,Teamwork,Conflict
-                    Resolution,Adaptability,Perseverance,Determination
+                    Communication, Teamwork, Conflict
+                    Resolution, Adaptability, Perseverance, Determination
                   </li>
                 </ul>
               </div>
