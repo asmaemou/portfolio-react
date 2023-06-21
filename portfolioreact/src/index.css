@@ -108,6 +108,7 @@ nav ul li a:hover::after{
 .tab-titles{
   display:flex;
   margin:20px 0 40px;
+  font-size: 90px;
 }
 .tab-links{
   margin-right: 50px;
@@ -174,6 +175,9 @@ nav ul li a:hover::after{
   margin-top:20px;
   display:inline-block;
 }
+.services-list div p{
+  font-size: 16px;
+}
 .services-list :hover{
   background: #ff004f;
   transform: translateY(-10px);
@@ -210,7 +214,9 @@ nav ul li a:hover::after{
   flex-wrap: wrap;
   width: 80%;
 }
-
+.title{
+  font-size: 60px;
+}
 .work-tools li{
   font-weight: bold;
 }
