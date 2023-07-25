@@ -16,6 +16,16 @@ const Experience=()=>(
             <br />
             Building a website for a library to help the organization process using React.
           </li>
+          <li>
+            <span>June 2023</span>
+            <br />
+            Developing a website for a startup having two languages Arabe and English and making it responsive using react.
+          </li>
+          <li>
+            <span>July 2023</span>
+            <br />
+            Currently developing a mobile application for an e-commerce using Flutter and Odoo.
+          </li>
         </ul>
       </div>
 )

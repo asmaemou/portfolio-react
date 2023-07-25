@@ -4,12 +4,17 @@ const Skills=()=>(
                   <li>
                     <span>Back-End</span>
                     <br />
-                    PostgresSQL, Django
+                    PostgresSQL, Django, Odoo
                   </li>
                   <li>
                     <span>Front-End</span>
                     <br />
                     JavaScript, HTML, CSS, React
+                  </li>
+                  <li>
+                    <span>Framework</span>
+                    <br />
+                    Flutter
                   </li>
                   <li>
                     <span>Tools and Methods</span>
