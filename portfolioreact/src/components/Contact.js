@@ -25,7 +25,7 @@ const Contact = () => {
           <div className="contact-left">
             <h1 className="sub-title">Contact Me</h1>
             <p><FontAwesomeIcon icon={faPaperPlane}/> amouradi2002@gmail.com</p>
-            <p><FontAwesomeIcon icon={faPhone}/>+1 341-529-6392</p>
+            <p><FontAwesomeIcon icon={faPhone}/>+212 668661680</p>
             <div className="social-icons">
               <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/asmaemouradi/">
                 <FontAwesomeIcon icon={faLinkedin}/>
