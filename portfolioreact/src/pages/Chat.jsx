@@ -29,7 +29,7 @@ function Chat() {
   const [chatMessages, setchatMessages] = useState([
     {
       position: "left_bubble",
-      message: "Hello there,I am your assistant. How can i help you today? ",
+      message: "Hello there, this is the portfolio of Asmae. How can i help you today? ",
     },
   ]);
 
