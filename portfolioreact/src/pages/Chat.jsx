@@ -42,16 +42,17 @@ function Chat() {
     prompt_input.value = "";
 
     const data = {
-      chatHistory: JSON.stringify(chatMessages),
+      // chatHistory: JSON.stringify(chatMessages),
+      chatHistory:[],
       prompt: prompt,
     };
 
-    fetch("https://flask-chatbot-lime.vercel.app/ask_asmae", {
+    fetch("http://localhost:1234/ask_asmae", {
       method: "POST",
       body: JSON.stringify(data), // Convert data to JSON
-      // headers: {
-      //   "Content-Type": "application/json", // Set the content type to JSON
-      // },
+      headers: {
+        "Content-Type": "application/json", // Set the content type to JSON
+      },
     })
       .then((response) => response.json())
       .then((resData) => {

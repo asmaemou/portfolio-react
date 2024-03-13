@@ -1,0 +1,171 @@
+\begin{document}
+	
+	\begin{center}
+		\textbf{\Huge Asmae Mouradi}
+		
+		Casablanca, Morocco · (212) 668661680 · amouradi2002@gmail.com
+		
+		Full Stack Software Engineer 
+		
+	%	\textbf{\large Student}
+	\end{center}
+	
+	% EXPERIENCE SECTION
+	%----------------------------------------------------------------------------------------
+	
+	{\fontfamily{lmr}\selectfont
+		
+		\begin{rSection}{Career Objective}
+			\vspace{\positionSkip}
+			
+			{ \small
+				\begin{itemize}[leftmargin=*]
+					\setlength\itemsep{\itemSkip}
+					\item My career objective is to evolve into a proficient Full Stack Engineer, adept in mastering a diverse array of programming languages, while contributing my skills and dedication to a leading global tech company. Ultimately, I aspire to leverage my expertise to establish and successfully launch my own entrepreneurial venture.
+		
+	}		
+	\end{rSection}
+		\begin{rSection}{Experience}
+			\vspace{\positionSkip}
+			
+			{\bf Full-Stack Software Engineer Intern} \hfill {\em July 2023 - September 2023}
+			
+			\textit{IT Shore \hfill High-value-added management solutions for businesses, Casablanca, Morocco}
+			{ \small
+				\begin{itemize}[leftmargin=*]
+					\setlength\itemsep{\itemSkip}
+					\item Contributed to the development of a mobile app for VIVO clients, utilizing Flutter for the front-end and Odoo for the backend.
+					\item Implemented a mobile application for e-commerce using flutter and odoo for the company to use with existing and new clients
+					\item Collaborated with a multifaceted team to play a pivotal role in delivering top-tier software products successfully.
+				\end{itemize}
+}			\end{rSection}
+			
+			\begin{rSection}{Projects}
+				\vspace{\positionSkip}
+				
+					{\bf{Child Bridge/Volunteering}} \hfill {\em September 2023- Present}
+				
+				\textit{Child Bridge website}
+				{ \small
+					\begin{itemize}[leftmargin=*]
+						\setlength\itemsep{\itemSkip}
+						\item Creating accessible connections for people with learning disabilities in Morocco, including organizing events for parents to better understand their children and facilitating access to games and tricks to improve their children's lives.
+						\item Technologies used: React, Tailwind.
+					\end{itemize}
+				}
+				
+				
+					\vspace{\positionSkip}
+					
+					
+						{\bf{E-commerce application}} \hfill {\em September 2023- Present}
+					
+				%	\textit{Child Bridge website}
+					{ \small
+						\begin{itemize}[leftmargin=*]
+							\setlength\itemsep{\itemSkip}
+							\item Enhancing the shopping experience for users on Windows and Android devices through our mobile e-commerce app, ensuring accessibility for all. We aim to empower customers to make informed choices and provide a diverse product range to meet unique needs, enriching their lives.
+							\item Technologies used: React Native, Tailwind, Django.
+						\end{itemize}
+					}
+					
+					
+					\vspace{\positionSkip}
+					
+				{\bf \textit{Easy Website/ Freelance Developer}} \hfill {\em June 2023-July 2023}
+				{ \small
+					\begin{itemize}[leftmargin=*]
+						\setlength\itemsep{\itemSkip}
+						\item Designed and developed a website for a client with four different pages: home, about, services, and contact.
+						\item Designed software solutions to meet both functional and non-functional requirements, ensuring precise alignment with client specifications.
+						\item This meticulous approach significantly improved product quality and customer satisfaction, successfully fulfilling the client's requests.
+						\item Technologies used: React, Tailwind.
+					\end{itemize}
+				}
+				
+				\vspace{\positionSkip}
+				
+					{\bf \textit{Defy-Fit Application / Developer}} \hfill {\em Present}
+				{ \small
+					\begin{itemize}[leftmargin=*]
+						\setlength\itemsep{\itemSkip}
+						\item Developed a mobile application designed to facilitate athletes in coordinating and scheduling matches, providing a user-friendly platform for enhanced sporting engagement and community interaction.
+						\item Experienced in collaborating with international teams, showcasing strong cross-cultural communication skills and a global perspective.
+						\item Effective communicator with stakeholders at all levels, ensuring clear understanding and alignment of project objectives and deliverables.
+						\item Technologies used: React Native, Spring.
+					\end{itemize}
+				}
+				
+				\vspace{\positionSkip}
+				
+				%{\bf \textit{Book Store Website}} \hfill {\em May 2023-June 2023}
+		%	\begin{itemize}[leftmargin=*]
+			%	\setlength\itemsep{\itemSkip}
+			%	{ \small
+				%	\item Created a website to allow people to search for any book by a specific author and helped librarians keep track of the current books and those that are borrowed.
+				%	\item Technologies used: React.
+				%}
+		%	\end{itemize}
+				
+				\vspace{\positionSkip}
+				
+			\end{rSection}
+			
+			% EDUCATION SECTION
+			%----------------------------------------------------------------------------------------
+			\begin{rSection}{Education}
+				
+				{\bf AL Akhawayn University}, Ifrane Morocco  \hfill {\em 2020 - Present} 
+				{ \small
+					\\ \textit{Bachelor of Computer Science and Minor in Mathematics}
+					\\ Coursework: Algorithms, Data Structures, Object-Oriented Programming, Databases, Software Engineering, Paradigms, Computer Network.
+				}
+				
+				{\bf Agnes Scott College}, Atlanta USA \hfill {\em January 2023 - May 2023} 
+				{ \small
+					\\ \textit{Bachelor of Computer Science and Minor in Mathematics}
+					\\ Coursework: How to Think Like a Data Scientist, Math Modeling and Applications, Number Theory, Theater.
+				}
+				
+				\vspace{\positionSkip}
+				
+			\end{rSection}
+			
+			% SKILLS SECTION
+			%----------------------------------------------------------------------------------------
+			
+			\begin{rSection}{Skills \& Certifications}
+				
+				{\bf Programming Languages and Tools }
+				{ \small
+					\\
+					\textit{Backend}: Python, Django, C, Odoo, Node.js, Spring Boot.
+					\\
+					\textit{Frontend}: React, JavaScript, HTML, CSS, Flutter, React Native.
+					\\
+					\textit{Databases}: PostgreSQL, SQL.
+				%	\\
+				%	\textit Other: Latex.
+				}
+			\end{rSection}
+			
+			% AWARDS SECTION
+			%----------------------------------------------------------------------------------------
+			
+		\begin{rSection}{Awards}
+			\begin{tabular}{@{}ll}
+				\textbf{Agnes Scott College} & \hspace{7cm} \textbf{Al Akhawayn University} \\
+				\textit{Honor's List Spring 2023} & \hspace{7cm} \textit{Dean's List Fall 2022} \\
+				& \hspace{7cm} \textit{Full Scholarship of Excellence} \\
+			
+				%\textbf{NASA Space Apps Challenge} & \\ % New title added here
+			%	\textit{Galactic Problem Solver Certificate} \\ % New entry added here
+			\end{tabular}
+		\end{rSection}
+	
+		\begin{rSection}{Certificate}
+		\vspace{\positionSkip}
+		\href{https://www.coursera.org/account/accomplishments/certificate/BBJDRHD4DWBF}{Deep Neural Network Certificate}
+		
+	\end{rSection}
+	\end{document}
