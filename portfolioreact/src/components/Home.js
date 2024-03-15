@@ -1,5 +1,6 @@
 import React from "react";
 import homeImage from "../images/me.png";
+import Chat from "../pages/Chat";
 
 const Home = () => {
   return (
@@ -18,7 +19,9 @@ const Home = () => {
           </h1>
         </div>
       </div>
+      <Chat/>
     </>
+
   );
 };
 

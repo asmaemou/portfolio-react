@@ -75,7 +75,7 @@ function Chat() {
 
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <div>
         <div id="assistant-chat" className="hide ai_chart">
           <div className="header-chat">
