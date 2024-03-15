@@ -112,6 +112,8 @@ def getChatHistory(history='[]'):
             )
         return custom_chat_history
 
+
+
 def query_index(prompt, chat_history):
     # Function to query the llama index and generate a response
 
@@ -122,7 +124,7 @@ def query_index(prompt, chat_history):
     chat_engine = CondenseQuestionChatEngine.from_defaults(
         query_engine=query_engine,
         condense_question_prompt=get_custom_prompt(),
-        chat_history=chat_history,
+        chat_history=getChatHistory(chat_history),
         verbose=True,
         llm=Settings.llm,
     )
@@ -139,6 +141,7 @@ def query_endpoint():
     data = request.get_json()
     prompt = data.get('prompt')
     chat_history = data.get('chatHistory', [])
+    print( chat_history)
     print(data)
     response = query_index(prompt, chat_history)
     # print(response.get_json())
