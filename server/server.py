@@ -10,6 +10,7 @@ from llama_index.core import VectorStoreIndex
 from llama_index.embeddings.jinaai import JinaEmbedding
 from llama_index.llms.replicate import Replicate
 from llama_index.core import Settings
+from llama_index.core.base.llms.types import ChatMessage,MessageRole
 
 
 import os
@@ -34,12 +35,12 @@ CORS(app)
 
 
 # Define the URLs of your website pages
-PAGE_URLS = {
-    'home': 'http://localhost:3000/',
-    'about': 'http://localhost:3000/about',
-    'service': 'http://localhost:3000/services',
-    'contact': 'http://localhost:3000/contact',
-}
+# PAGE_URLS = {
+#     'home': 'http://localhost:3000/',
+#     'about': 'http://localhost:3000/about',
+#     'service': 'http://localhost:3000/services',
+#     'contact': 'http://localhost:3000/contact',
+# }
 def create_llama_index():
         
     index_dir = 'index'  # Specify the directory your index will be stored
@@ -87,6 +88,29 @@ Conclude the question with: Only refer to this document.
 """)
     except Exception as e:
         return jsonify({'error':  f"An error occurred: {e}"})
+
+
+
+
+def getChatHistory(history='[]'):
+
+        history = json.loads(history)
+
+        # initialize chart history
+        custom_chat_history = []
+        roles = {"left_bubble": "ASSISTANT", "right_bubble": "USER"}
+        for chat in history:
+            position = chat['position']
+            role = MessageRole[roles[position]]
+            content = chat['message']
+            custom_chat_history.append(
+                ChatMessage(
+                    # can be USER or ASSISTANT
+                    role=role,
+                    content=content
+                )
+            )
+        return custom_chat_history
 
 def query_index(prompt, chat_history):
     # Function to query the llama index and generate a response

@@ -42,8 +42,8 @@ function Chat() {
     prompt_input.value = "";
 
     const data = {
-      // chatHistory: JSON.stringify(chatMessages),
-      chatHistory:[],
+      chatHistory: JSON.stringify(chatMessages),
+      // chatHistory:[],
       prompt: prompt,
     };
 
