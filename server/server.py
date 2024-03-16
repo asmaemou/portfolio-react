@@ -137,7 +137,6 @@ def hello_world():
 
 @app.route('/ask_asmae', methods=['POST'])
 def query_endpoint():
-
     data = request.get_json()
     prompt = data.get('prompt')
     chat_history = data.get('chatHistory', [])
