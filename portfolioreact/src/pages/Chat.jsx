@@ -47,7 +47,7 @@ function Chat() {
       prompt: prompt,
     };
 
-    fetch("http://localhost:1234/ask_asmae", {
+    fetch(`${process.env.REACT_APP_BACKEND_URL}/ask_asmae`, {
       method: "POST",
       body: JSON.stringify(data), // Convert data to JSON
       headers: {
